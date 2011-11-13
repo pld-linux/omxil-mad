@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_libdir		/usr/%{_lib}/bellagio
 
 %description
-MAD component is a audio decoder component for Bellagio OpenMAX IL
+MAD component is an audio decoder component for Bellagio OpenMAX IL
 that uses MAD and id3tag libraries for MP3 audio decoding.
 
 %description -l pl.UTF-8
